@@ -30,8 +30,6 @@ Uygulama görme engelli insanların, telefonlarıyla bir fotoğraf çekerek yaz�
 
 ---
 
----
-
 ## 🇺🇸 English Description
 
 **Soyle**: Soyle is an Android mobile application developed to help visually impaired people understand what's written on paper, notebooks, tables, etc. 
