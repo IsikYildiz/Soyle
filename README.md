@@ -20,14 +20,6 @@ Uygulama görme engelli insanların, telefonlarıyla bir fotoğraf çekerek yaz�
     * **Okuma Sırasında Dokunuş:** Mevcut okumayı durdurur ve uygulamayı yeni bir çekime hazırlar.
 * **Durum Yönetimi:** Uygulamanın anlık durumu (Başlangıç, İşleniyor, Okunuyor, Hazır, Hata) kullanıcıya sesli ve metinsel olarak bildirilir.
 
-### ⚙️ Kurulum
-
-1.  Projeyi klonlayın.
-2.  Android Studio'da açın.
-3.  Gerekli tüm ML Kit ve CameraX bağımlılıklarını `build.gradle` dosyasında tanımladığınızdan emin olun.
-4.  Uygulamayı cihazınıza kurun.
-5.  Uygulamayı çalıştırın ve kamera izni verdiğinizden emin olun.
-
 ---
 
 ## 🇺🇸 English Description
@@ -44,13 +36,5 @@ The application allows visually impaired people to listen to what's written by t
     * **Single Tap:** Initiates photo capture and starts the reading process.
     * **Tap During Reading:** Stops the current reading and prepares the app for a new capture.
 * **State Management:** The app's current status (Initial, Processing, Speaking, Ready, Error) is communicated to the user through both audio and on-screen text.
-
-### Setup
-
-1.  Clone the repository.
-2.  Open the project in Android Studio.
-3.  Ensure all necessary ML Kit and CameraX dependencies are defined in your `build.gradle` file.
-4.  Upload the application into your phone.
-5.  Run the application and ensure camera permissions are granted.
-
+  
 ---
