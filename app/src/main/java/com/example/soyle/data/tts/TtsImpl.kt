@@ -12,7 +12,7 @@ class TtsImpl(private val context: Context) : Tts, TextToSpeech.OnInitListener {
     private val initializationCompletion = CompletableDeferred<Boolean>() // Başlatma durumunu beklemek için
     private var isTtsReady: Boolean = false
 
-    // Başlatma Fonksiyonu
+    // Başlatma fonksiyonu
     override suspend fun initialize() {
         if (tts == null) {
             tts = TextToSpeech(context, this) // TTS objesi oluşturulur.
@@ -21,7 +21,7 @@ class TtsImpl(private val context: Context) : Tts, TextToSpeech.OnInitListener {
         }
     }
 
-    // OnInitListener Geri Çağrımı
+    // OnInitListener geri çağrımı
     override fun onInit(status: Int) {
         if (status == TextToSpeech.SUCCESS) {
             // Başarılı olursa dil ayarı yapılabilir
@@ -36,7 +36,7 @@ class TtsImpl(private val context: Context) : Tts, TextToSpeech.OnInitListener {
         }
     }
 
-    // Konuşma Fonksiyonu
+    // Konuşma fonksiyonu
     override fun speak(text: String, language: String) {
         if (!isTtsReady) {
             println("TTS motoru hazır değil, konuşma iptal edildi.")
