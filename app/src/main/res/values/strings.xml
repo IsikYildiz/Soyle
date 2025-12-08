@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Soyle</string>
+    <string name="touch_to_act">Ekrana bir kez dokunarak fotoğraf çekin ve metni okutun. Okunma sırasında dokunmak durdurur.</string>
+</resources>
