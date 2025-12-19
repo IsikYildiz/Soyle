@@ -5,7 +5,7 @@
 
 ---
 
-## 🇹🇷 Türkçe Açıklama
+## Türkçe Açıklama
 
 **Söyle**: Söyle, görme engelli insanların kağıtlarda, defterlerde, tablolarda v.b yazılanları anlaması için geliştirilmiş bir android mobil uygulamasıdır. 
 Uygulama görme engelli insanların, telefonlarıyla bir fotoğraf çekerek yazılanları sesli olarak dinleyebilmesini sağlar. 
@@ -22,7 +22,7 @@ Uygulama görme engelli insanların, telefonlarıyla bir fotoğraf çekerek yaz�
 
 ---
 
-## 🇺🇸 English Description
+## English Description
 
 **Soyle**: Soyle is an Android mobile application developed to help visually impaired people understand what's written on paper, notebooks, tables, etc. 
 The application allows visually impaired people to listen to what's written by taking a photo with their phone.
